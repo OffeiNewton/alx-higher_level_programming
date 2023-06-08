@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+# 2-print_alphabet.py
 
-# ASCII values for lowercase letters start from 97
-# Loop through ASCII range and print the corresponding character
-for i in range(97, 123):
-    print(chr(i), end="")
-
+"""Print the alphabet in lowercase, not followed by a new line."""
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
 
